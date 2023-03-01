@@ -65,7 +65,35 @@ margin:0;
 	color:black;
 }
 
+.fa-twitter:hover{
+	color:#00acee;
+	transform: scale(2);
+	transition: all .25s;
+}
 
+
+
+.fa-instagram:hover{
+	color:#d62976;
+	transform: scale(2);
+	
+	transition: all .25s;
+}
+.fa-behance:hover{
+	color:#053eff;
+	transform: scale(2);
+	transition: all .25s;
+}
+.fa-facebook:hover{
+	color:#3b5998;
+		transform: scale(2);
+	transition: all .25s;
+}
+.fa-linkedin:hover{
+	color:#0072b1;
+		transform: scale(2);
+	transition: all .25s;
+}
 /*off screen menu animation*/
 
 .off-screen-menu.animate {
@@ -233,35 +261,7 @@ ul.grad-social > li{
 	padding:0;
 }
 
-.fa-twitter:hover{
-	color:#00acee;
-	transform: scale(2);
-	transition: all .25s;
-}
 
-
-
-.fa-instagram:hover{
-	color:#d62976;
-	transform: scale(2);
-	
-	transition: all .25s;
-}
-.fa-behance:hover{
-	color:#053eff;
-	transform: scale(2);
-	transition: all .25s;
-}
-.fa-facebook:hover{
-	color:#3b5998;
-		transform: scale(2);
-	transition: all .25s;
-}
-.fa-linkedin:hover{
-	color:#0072b1;
-		transform: scale(2);
-	transition: all .25s;
-}
 
 
 
@@ -283,6 +283,10 @@ ul.grad-social > li{
     display: none;
 }
 */
+ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 }
 
 @media (min-width: 1025px){
