@@ -150,6 +150,10 @@ margin:0;
     min-height: 200px;
 }
 
+.grads {
+  min-height:200px;
+}
+
 @keyframes fade-in{
   0%   { background-color: #000000; }
   100% { background-color: #ffffff; }
@@ -238,15 +242,19 @@ ul.grad-social > li{
     filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(86deg) brightness(0%) contrast(0%);
 }
 #hero {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-	position: relative;
+    margin:0;
+    padding:0;
+	  position: relative;
 }
 
 #hero::after {
-	content: "";
+	margin:0;
+  padding:0;
+  content: "";
 	position: fixed;
-	width:100vw;
+	width:100%;
 	height: 100vh;
 	z-index: 0;
 	background-image: url(../media/img/SVG/background.svg);
@@ -256,9 +264,20 @@ ul.grad-social > li{
     opacity: .08;
 }
 
+#show-logo {
+	margin:0;
+	padding:0;
+  display: block;
+  width:80%;
+  margin: 0 auto;
+}
+
 #show-title {
 	margin:0;
 	padding:0;
+  display: block;
+  width:100%;
+  margin: 0 auto;
 }
 
 
@@ -281,6 +300,14 @@ ul.grad-social > li{
     padding: 61px;
   }
 
+  #show-title {
+    margin:0;
+    padding:0;
+    display: block;
+    width:100%;
+    margin: 0 auto;
+  }
+
 
 }
 
@@ -299,6 +326,14 @@ ul li a {
 
 .grad{
   margin-left: 80px;
+}
+
+#show-logo {
+	margin:0;
+	padding:0;
+  display: block;
+  width:100%;
+  margin: 0 auto;
 }
 
 

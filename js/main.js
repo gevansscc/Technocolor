@@ -21,7 +21,15 @@ $(function() {
 
   $( "#group" ).click(function() {
 
-    
+    $('.off-screen-menu').toggleClass('animate');
+    $('.svg').toggleClass('filter-green');
+		if($('header').attr('class') == null ){
+			$('header').addClass('header-animate-fade-in');
+		} else if($('header').attr('class') == 'header-animate-fade-in'){
+			$('header').removeClass('header-animate-fade-in').addClass('header-animate-fade-out');
+		} else if(($('header').attr('class') == 'header-animate-fade-out')){
+			$('header').removeClass('header-animate-fade-out').addClass('header-animate-fade-in');
+		}
   });
 	
 	
