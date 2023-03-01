@@ -55,6 +55,7 @@ margin:0;
   margin-top: -15px;
   font-size: 48px;
   font-family: 'Oswald', sans-serif;
+  font-style: normal;
   font-weight: bold;
   transition: transform cubic-bezier(.19,.18,.04,1) .8s, opacity cubic-bezier(.47, 0, .94, .45) .5s;
   transform: translate(0, -80px);
