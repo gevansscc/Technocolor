@@ -287,6 +287,14 @@ ul li a {
   color: #FFFFFF;
   text-decoration: none;
 }
+
+
+.grad{
+  margin-left: 125px;
+}
+
+
+
 }
 
 @media (min-width: 1025px){

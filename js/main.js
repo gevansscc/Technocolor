@@ -1,15 +1,12 @@
 // JavaScript Document
 $(function() {
-//    console.log( "ready!" );
-	
-	// add click event to hamburger menu to trigger css menu 
+
 	$('#main-menu').click(function(){
-//		console.log("menu Clicked");
+
 	$('.off-screen-menu').toggleClass('animate');
 	$('.svg').toggleClass('filter-green');
 	
-	
-//		$('header').toggleClass('header-animate-fade-in header-animate-fade-out');
+
 
 		if($('header').attr('class') == null ){
 			$('header').addClass('header-animate-fade-in');
@@ -19,16 +16,13 @@ $(function() {
 			$('header').removeClass('header-animate-fade-out').addClass('header-animate-fade-in');
 		}
 		
-//		if($("header").hasClass('header-animate-fade-in')){
-//			$("header").addClass('header-animate-fade-out')
-//			$("header").removeClass('header-animate-fade-in')
-//		} else {
-//			$('header').addClass('header-animate-fade-in');
-//		}
-		
 	});
-	
-	
+
+
+  $( "#group" ).click(function() {
+
+    
+  });
 	
 	
 });
