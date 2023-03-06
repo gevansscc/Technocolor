@@ -171,7 +171,8 @@ a:hover {
   transform: translateX(-45%);
 }
 
-#grads-container{
+
+#grads-container, #grads{
 		display: flex;
 		flex-wrap:  wrap;
 		justify-content: space-between;
@@ -189,6 +190,15 @@ a:hover {
 
 #grads {
   min-height:200px;
+}
+
+.grad-copy {
+  flex: 1 1 auto;
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 200px;
 }
 
 @keyframes fade-in{
@@ -312,6 +322,7 @@ ul.grad-social > li{
   display: block;
   width:80%;
   margin: 0 auto;
+  top: 100px;
 }
 
 #show-title {
